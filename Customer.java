@@ -1,27 +1,28 @@
 public class Customer {
 
 
-    public String ID;
+    private String username;
     public String password;
+    public String order;
 
     Customer(){
 
     }
 
-    Customer(String ID, String password){
-        this.ID = ID;
+    Customer(String username, String password){
+        this.username = username;
         this.password = password;
     }
 
-    public void setID(String ID){
+    public vousername setusername(String username){
 
-        this.ID = ID;
+        this.username = username;
 
     }
 
-    public String getID()
+    public String getusername()
     {
-        return ID;
+        return username;
     }
 
 
